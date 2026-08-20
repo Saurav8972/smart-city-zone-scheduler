@@ -1,0 +1,16 @@
+============================================================
+PAGING ADDRESS TRANSLATION
+============================================================
+
+Logical address 260 -> Page 0 Offset 260 -> Physical address 5380
+Logical address 1500 -> Page 1 Offset 476 -> Physical address 2524
+Logical address 3000 -> Page 2 Offset 952 -> Physical address 10168
+Logical address 5000 -> PAGE FAULT
+
+============================================================
+SEGMENTATION ADDRESS TRANSLATION
+============================================================
+
+Segment 0 Offset 150 -> Physical address 1150
+Segment 1 Offset 350 -> SEGMENTATION FAULT
+Segment 2 Offset 100 -> Physical address 600
